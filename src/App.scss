@@ -1,0 +1,32 @@
+@import "../src/common/colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: $black;
+  font-size: 14px;
+  line-height: 20px;
+}
+.container {
+  margin: 0px 40px;
+}
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+.main {
+  margin-bottom: -72px;
+  padding-bottom: 72px;
+  min-height: 100%;
+}
