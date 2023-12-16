@@ -16,3 +16,38 @@
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   grid-gap: 15px;
 }
+
+.search-wrapper-outer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  .search-wrapper {
+    margin-bottom: 30px;
+    position: relative;
+    width: 40%;
+    min-width: 200px;
+    .search-input {
+      height: 40px;
+      background: $black;
+      color: $primary-color;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid rgba($white, 0.8);
+      padding: 4px 10px;
+      padding-right: 40px;
+    }
+    .search-btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 40px;
+      padding: 4px 10px;
+      background: transparent;
+      border: none;
+      color: rgba($white, 0.8);
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

@@ -8,6 +8,11 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 5px 10px #14a38d26;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
 }
 
 .logo {

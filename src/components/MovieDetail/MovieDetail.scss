@@ -3,7 +3,7 @@
 
 .movie-section {
   display: flex;
-  justify-content: space-evenly;
+  align-items: flex-start;
   padding: 40px 0px;
   color: $white;
   font-weight: 400;
@@ -63,8 +63,8 @@
   color: peachpuff;
 }
 
-.section-right {
-  margin-left: 30px;
+.section-left {
+  margin-right: 60px;
   width: 300px;
   min-width: 300px;
   flex: 0 0 300px;
